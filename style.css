@@ -1,0 +1,33 @@
+/*variaveis*/
+:root {
+    --preto: #000;
+    --branco: #fff;
+    --vermelho: #a51010;
+    --laranja: #ff9100;
+}
+/*corpo da página*/
+body {
+    color; var(--branco);
+    background-color; var(--preto);
+    margin: 0px;
+}
+
+header {
+    border: solid 2px;
+    border-color: var(--branco);
+    padding: 20px;
+    font-size: 32px;
+    color: var(--laranja);
+}
+
+section {
+    background-color: var(--vermelho);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    margin-right: 20px;
+}
