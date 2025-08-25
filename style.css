@@ -7,8 +7,8 @@
 }
 /*corpo da página*/
 body {
-    color; var(--branco);
-    background-color; var(--preto);
+    color: var(--branco);
+    background-color: var(--preto);
     margin: 0px;
 }
 
