@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    border-bottom: 2px
+    border-bottom: 2px;
     border-color: var(--branco);
     padding: 20px;
     font-size: 32px;
