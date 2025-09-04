@@ -2,9 +2,9 @@
 :root {
 --preto: #000000;
 --rose: #ee3f3f;
---amarelo-limão: #e6e477;
+--amarelo-limão: #fbff00c4;
 --rosa-vinho: #d12f73;
---laranja:#e85d0d;
+--vermelho-claro:#ff0901bd;
 }
 /*corpo da página*/
 body {
@@ -18,17 +18,17 @@ border: solid 2px;
 border-color: var(--rose);/*cor da borda*/
 padding: 20px;/*espaçamento interno*/
 font-size: 32px;/*tamanho da fonte*/
-color: var(--laranja);/*cor da fonte*/
+color: var(--vermelho-claro);/*cor da fonte*/
 }
 
 .chamada-texto {
-background-color: var(--laranja);
+background-color: var(--vermelho-claro);
 color: var(--preto);
 margin-right: 20px;/*margem a direita*/
 }
 
 .chamada {
-background: rgb(207, 49, 21);
+background: rgb(240, 96, 71);
 padding-bottom: 80px;/*espaçamento inferior*/
 
 padding-top: 80px;/*espaçamento superior*/
@@ -59,7 +59,7 @@ margin-left: 30px;/*margem a direita*/
 margin-right: 30px;/*margem a direita*/
 }
 .outras-recomendacoes {
-background-color: var(--laranja);
+background-color: var(--vermelho-claro);
 display: flex;
 overflow-x: auto;
 gap: 20px;
